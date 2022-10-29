@@ -70,12 +70,12 @@ CREATE TABLE IF NOT EXISTS relexptag (
 The email and passwd should be hashed.
 
 ```sql
-CREATE TABLE IF NOT EXISTS lvl (
-  id SERIAL,
-  user VARCHAR,
-  email VARCHAR,
-  passwd VARCHAR,
-  PRIMARY KEY (id)
+CREATE TABLE IF NOT EXISTS appuser (
+    id SERIAL,
+    username VARCHAR,
+    email VARCHAR,
+    passwd VARCHAR,
+    PRIMARY KEY (id)
 );
 ```
 
