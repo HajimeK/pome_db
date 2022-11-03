@@ -1,48 +1,49 @@
-INSERT INTO Tag (tag) VALUES('AI') RETURNING *;
-INSERT INTO Tag (tag) VALUES('Azure') RETURNING *;
-INSERT INTO Tag (tag) VALUES('IoT') RETURNING *;
-INSERT INTO Tag (tag) VALUES('Blockchain') RETURNING *;
+INSERT INTO Tag (tag) VALUES('AI');
+INSERT INTO Tag (tag) VALUES('Azure');
+INSERT INTO Tag (tag) VALUES('IoT');
+INSERT INTO Tag (tag) VALUES('Blkchain');
 
-INSERT INTO experience (title, note, urle) VALUES('Fleet IoT', 'Fleet solution packaging project targeting the Japanese market. Install in-vehicle devices and collect data from platforms. From on-site data collection, provided the scoring function of the drivers behavior data using ML methods (4 months)', 'NA') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('AutoML with Azure ML', 'build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model. This model is then compared to an Azure AutoML run.', 'https://github.com/HajimeK/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('MLOps with Azure ML', 'Deploy trained models to an end point what is consumable with REST API calls', 'https://github.com/HajimeK/nd00333_AZMLND_C2/tree/master/starter_files') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('Azure ML with real data', 'Using an traditional census data in Machine Learning studies, here I have derived prediction models to find potential donors. If the income is expected larger than 50K, we find the person as potential donors and put emphasis on the activity to ask for donations.', 'https://github.com/HajimeK/nd00333-capstone') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('Person Detection with Intel OpenVINO', 'Using SSD, Single Shot Multibox Detector, to detect people in real-time streaming video. Can operate both with Intel CPU embedded GPU and Intel USB VPU', 'https://github.com/HajimeK/nd131-openvino-fundamentals-project-starter/blob/master/WRITEUP.md') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('AIoT, Anormaly Detection', 'Reducing the failure rate of trucks is critical in logictics business. A machine lerning model for predictive analytics.', 'https://github.com/HajimeK/machine-learning/blob/master/projects/capstone/report/capstone.md') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('AIoT Streaming Analytics', 'Workshop to empower a partner ready for AIoT(AI+IoT) streaming analytics', 'NA') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('Azure Performance', 'Investigate Azure perfomance using Application Insights, Logs and etc, and autoscale when needed', 'https://github.com/HajimeK/nd081-c4-azure-performance-project-starter') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('Migrating to Azure', 'Making application to work with cloud managed services, like Azure Functions, service bus queue messaging', 'https://github.com/HajimeK/nd081-c3-Migrating-Non-Native-Cloud-Applications-project-starter') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('Azure Web App with REST & Cosmos DB backend', 'Azure Web App with REAT API withAzure Functions and Mongo DB', 'https://github.com/HajimeK/nd081-c2-Building-and-deploying-cloud-native-applications-from-scratch-project-starter') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('CMS app on Azure with AD credential', 'CMS app with OAuth2 with Sign in with Microsoft using the msal library, along with app logging.', 'https://github.com/HajimeK/nd081-c1-provisioning-microsoft-azure-vms-project-starter/blob/master/WRITEUP.md') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('Consumer Project IoT', 'As an engineer in a PoC to make customer product ready for IoT. Technology lead in defining subsequent commercialization requirements (1.5 year)', 'NA') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('Blockchain applied Supply Chain', 'Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer.', 'https://github.com/HajimeK/BlockchainDevND/tree/master/projects/project_6_Supply_Chain') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('Blockchian applied to Flight Insureance', 'Decentralized App withvoting algorithm for flight insurance among passengers and flight companies', 'https://github.com/HajimeK/BlockchainDevND/tree/master/projects/project_FlightSurety') RETURNING *;
-INSERT INTO experience (title, note, urle) VALUES('Blockchain applied to NFT', 'Smart Contract app to exchange items in OpenSea market place using NFT', 'https://github.com/HajimeK/BlockchainDevND/tree/master/projects/project_Capstone') RETURNING *;
+INSERT INTO experience (title, note, urle) VALUES('Fleet IoT', 'Fleet solution packaging project targeting the Japanese market. Install in-vehicle devices and collect data from platforms. From on-site data collection, provided the scoring function of the drivers behavior data using ML methods (4 months)', 'NA');
+INSERT INTO experience (title, note, urle) VALUES('AutoML with Azure ML', 'build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model. This model is then compared to an Azure AutoML run.', 'https://github.com/HajimeK/nd00333_AZMLND_Optimizing_a_Pipeline_in_Azure-Starter_Files');
+INSERT INTO experience (title, note, urle) VALUES('MLOps with Azure ML', 'Deploy trained models to an end point what is consumable with REST API calls', 'https://github.com/HajimeK/nd00333_AZMLND_C2/tree/master/starter_files');
+INSERT INTO experience (title, note, urle) VALUES('Azure ML with real data', 'Using an traditional census data in Machine Learning studies, here I have derived prediction models to find potential donors. If the income is expected larger than 50K, we find the person as potential donors and put emphasis on the activity to ask for donations.', 'https://github.com/HajimeK/nd00333-capstone');
+INSERT INTO experience (title, note, urle) VALUES('Person Detection with Intel OpenVINO', 'Using SSD, Single Shot Multibox Detector, to detect people in real-time streaming video. Can operate both with Intel CPU embedded GPU and Intel USB VPU', 'https://github.com/HajimeK/nd131-openvino-fundamentals-project-starter/blob/master/WRITEUP.md');
+INSERT INTO experience (title, note, urle) VALUES('AIoT, Anormaly Detection', 'Reducing the failure rate of trucks is critical in logictics business. A machine lerning model for predictive analytics.', 'https://github.com/HajimeK/machine-learning/blob/master/projects/capstone/report/capstone.md');
+INSERT INTO experience (title, note, urle) VALUES('AIoT Streaming Analytics', 'Workshop to empower a partner ready for AIoT(AI+IoT) streaming analytics', 'NA');
+INSERT INTO experience (title, note, urle) VALUES('Azure Performance', 'Investigate Azure perfomance using Application Insights, Logs and etc, and autoscale when needed', 'https://github.com/HajimeK/nd081-c4-azure-performance-project-starter');
+INSERT INTO experience (title, note, urle) VALUES('Migrating to Azure', 'Making application to work with cloud managed services, like Azure Functions, service bus queue messaging', 'https://github.com/HajimeK/nd081-c3-Migrating-Non-Native-Cloud-Applications-project-starter');
+INSERT INTO experience (title, note, urle) VALUES('Azure Web App with REST & Cosmos DB backend', 'Azure Web App with REAT API withAzure Functions and Mongo DB', 'https://github.com/HajimeK/nd081-c2-Building-and-deploying-cloud-native-applications-from-scratch-project-starter');
+INSERT INTO experience (title, note, urle) VALUES('CMS app on Azure with AD credential', 'CMS app with OAuth2 with Sign in with Microsoft using the msal library, along with app logging.', 'https://github.com/HajimeK/nd081-c1-provisioning-microsoft-azure-vms-project-starter/blob/master/WRITEUP.md');
+INSERT INTO experience (title, note, urle) VALUES('Consumer Project IoT', 'As an engineer in a PoC to make customer product ready for IoT. Technology lead in defining subsequent commercialization requirements (1.5 year)', 'NA');
+INSERT INTO experience (title, note, urle) VALUES('Blockchain applied Supply Chain', 'Ethereum DApp that demonstrates a Supply Chain flow between a Seller and Buyer.', 'https://github.com/HajimeK/BlockchainDevND/tree/master/projects/project_6_Supply_Chain');
+INSERT INTO experience (title, note, urle) VALUES('Blockchian applied to Flight Insureance', 'Decentralized App withvoting algorithm for flight insurance among passengers and flight companies', 'https://github.com/HajimeK/BlockchainDevND/tree/master/projects/project_FlightSurety');
+INSERT INTO experience (title, note, urle) VALUES('Blockchain applied to NFT', 'Smart Contract app to exchange items in OpenSea market place using NFT', 'https://github.com/HajimeK/BlockchainDevND/tree/master/projects/project_Capstone');
 
-INSERT INTO relexptag (experience, tag) VALUES(57, 58);
-INSERT INTO relexptag (experience, tag) VALUES(58, 56);
-INSERT INTO relexptag (experience, tag) VALUES(58, 57);
-INSERT INTO relexptag (experience, tag) VALUES(59, 56);
-INSERT INTO relexptag (experience, tag) VALUES(59, 57);
-INSERT INTO relexptag (experience, tag) VALUES(60, 56);
-INSERT INTO relexptag (experience, tag) VALUES(60, 57);
-INSERT INTO relexptag (experience, tag) VALUES(61, 56);
-INSERT INTO relexptag (experience, tag) VALUES(61, 58);
-INSERT INTO relexptag (experience, tag) VALUES(62, 56);
-INSERT INTO relexptag (experience, tag) VALUES(62, 58);
-INSERT INTO relexptag (experience, tag) VALUES(63, 58);
-INSERT INTO relexptag (experience, tag) VALUES(64, 57);
-INSERT INTO relexptag (experience, tag) VALUES(68, 57);
-INSERT INTO relexptag (experience, tag) VALUES(69, 57);
-INSERT INTO relexptag (experience, tag) VALUES(70, 58);
-INSERT INTO relexptag (experience, tag) VALUES(71, 59);
-INSERT INTO relexptag (experience, tag) VALUES(72, 59);
-INSERT INTO relexptag (experience, tag) VALUES(73, 59);
-INSERT INTO relexptag (experience, tag) VALUES(74, 57);
+INSERT INTO relexptag (experience, tag) VALUES(9, 10);
+INSERT INTO relexptag (experience, tag) VALUES(10, 8);
+INSERT INTO relexptag (experience, tag) VALUES(10, 9);
+INSERT INTO relexptag (experience, tag) VALUES(11, 8);
+INSERT INTO relexptag (experience, tag) VALUES(11, 9);
+INSERT INTO relexptag (experience, tag) VALUES(12, 8);
+INSERT INTO relexptag (experience, tag) VALUES(12, 9);
+INSERT INTO relexptag (experience, tag) VALUES(13, 8);
+INSERT INTO relexptag (experience, tag) VALUES(13, 10);
+INSERT INTO relexptag (experience, tag) VALUES(14, 8);
+INSERT INTO relexptag (experience, tag) VALUES(14, 10);
+INSERT INTO relexptag (experience, tag) VALUES(15, 8);
+INSERT INTO relexptag (experience, tag) VALUES(15, 10);
+INSERT INTO relexptag (experience, tag) VALUES(16, 9);
+INSERT INTO relexptag (experience, tag) VALUES(17, 9);
+INSERT INTO relexptag (experience, tag) VALUES(18, 9);
+INSERT INTO relexptag (experience, tag) VALUES(19, 9);
+INSERT INTO relexptag (experience, tag) VALUES(20, 10);
+INSERT INTO relexptag (experience, tag) VALUES(21, 11);
+INSERT INTO relexptag (experience, tag) VALUES(22, 11);
+INSERT INTO relexptag (experience, tag) VALUES(23, 11);
 
  id |                    title
 ----+---------------------------------------------
- 57 | Fleet IoT
+ 99 | Fleet IoT
  58 | AutoML with Azure ML
  59 | MLOps with Azure ML
  60 | Azure ML with real data
