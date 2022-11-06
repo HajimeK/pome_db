@@ -1,1 +1,1 @@
-# pome_db
+See [DB architecture](./architecture/overview.md).
