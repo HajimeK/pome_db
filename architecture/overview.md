@@ -8,10 +8,6 @@
   - [relexptag](#relexptag)
   - [Application User](#application-user)
     - [Tables](#tables-1)
-  - [Deployment](#deployment)
-    - [To AWS](#to-aws)
-    - [Connect to DB](#connect-to-db)
-    - [To Azure](#to-azure)
 
 ![](tabledesign.png)
 
@@ -65,6 +61,7 @@ CREATE TABLE IF NOT EXISTS relexptag (
 
 ## Application User
 
+This table is prepared for the future use to provide edit capability for the skills.
 ### Tables
 
 The email and passwd should be hashed.
@@ -78,22 +75,3 @@ CREATE TABLE IF NOT EXISTS appuser (
     PRIMARY KEY (id)
 );
 ```
-
-## Deployment
-
-Target environment.
-Here I am going to try deploying to both AWS and Azure.
-
-![](deploy.png)
-
-### To AWS
-
-### Connect to DB
-
-```
-psql -h <aws hosted postgreSQL> -p 5432 -U postgres -d postgres
-```
-
-### To Azure
-
-TBD
